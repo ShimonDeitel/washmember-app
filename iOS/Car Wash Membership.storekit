@@ -1,0 +1,40 @@
+{
+  "identifier" : "Car Wash Membership",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "washmember_pro_group",
+      "localizations" : [],
+      "name" : "Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "com.shimondeitel.washmember.pro.monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock Value-per-visit analytics and multiple membership tracking",
+              "displayName" : "Car Wash Membership Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.washmember.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Car Wash Membership Pro Monthly",
+          "subscriptionGroupID" : "washmember_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
